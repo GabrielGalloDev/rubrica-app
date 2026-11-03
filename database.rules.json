@@ -1,0 +1,36 @@
+{
+  "rules": {
+    "users": {
+      ".read": "auth != null && query.orderByChild == 'createdBy' && query.equalTo == auth.uid",
+      ".indexOn": ["createdBy"],
+      "$uid": {
+        ".read": "auth != null && (auth.uid == $uid || data.child('createdBy').val() == auth.uid)",
+        ".write": "auth != null && newData.exists() && (auth.uid == $uid || data.child('createdBy').val() == auth.uid || (!data.exists() && newData.child('createdBy').val() == auth.uid))",
+        ".validate": "newData.hasChildren(['id', 'email', 'role']) && (!data.exists() || (newData.child('email').val() == data.child('email').val() && newData.child('role').val() == data.child('role').val()))"
+      }
+    },
+    "documents": {
+      ".read": "auth != null && query.orderByChild == 'ownerId' && query.equalTo == auth.uid",
+      ".indexOn": ["ownerId"],
+      "$docId": {
+        ".read": "auth != null && (data.child('ownerId').val() == auth.uid || data.child('signerUserIds').child(auth.uid).exists())",
+        ".write": "auth != null && newData.exists() && ((!data.exists() && newData.child('ownerId').val() == auth.uid) || data.child('ownerId').val() == auth.uid || data.child('signerUserIds').child(auth.uid).exists())",
+        ".validate": "!data.exists() || (newData.child('ownerId').val() == data.child('ownerId').val() && newData.child('fileName').val() == data.child('fileName').val())"
+      }
+    },
+    "userDocuments": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        "$docId": {
+          ".write": "auth != null && newData.parent().parent().parent().child('documents').child($docId).child('ownerId').val() == auth.uid"
+        }
+      }
+    },
+    "files": {
+      "$docId": {
+        ".read": "auth != null && (root.child('documents').child($docId).child('ownerId').val() == auth.uid || root.child('documents').child($docId).child('signerUserIds').child(auth.uid).exists())",
+        ".write": "auth != null && (!root.child('documents').child($docId).exists() || root.child('documents').child($docId).child('ownerId').val() == auth.uid || root.child('documents').child($docId).child('signerUserIds').child(auth.uid).exists())"
+      }
+    }
+  }
+}

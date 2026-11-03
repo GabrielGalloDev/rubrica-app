@@ -1,0 +1,13 @@
+.gradle/
+build/
+/local.properties
+.idea/
+*.iml
+.kotlin/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+# Firebase (cada um usa o seu)
+app/google-services.json
+entregas/

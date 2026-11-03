@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Rubrica</string>
+    <string name="app_tagline">Send, sign and track everything from the palm of your hand.</string>
+    <string name="demo_admin_name">Rubrica Administrator</string>
+
+    <!-- Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_clear">Clear</string>
+    <string name="action_close">Close</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_replace">Replace</string>
+    <string name="action_retry">Try again</string>
+    <string name="action_save_changes">Save changes</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_app_logo">Rubrica logo</string>
+    <string name="cd_back">Go back</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_settings">Settings</string>
+    <string name="cd_refresh">Refresh</string>
+    <string name="cd_logout">Sign out</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_show_password">Show password</string>
+    <string name="cd_hide_password">Hide password</string>
+    <string name="cd_previous_page">Previous page</string>
+    <string name="cd_next_page">Next page</string>
+    <string name="cd_delete_field">Delete field</string>
+    <string name="cd_pdf_page">Page %1$d</string>
+    <string name="cd_signature">Signature</string>
+
+    <!-- Language -->
+    <string name="language_title">Language</string>
+    <string name="language_system">System default</string>
+    <string name="language_english">English</string>
+    <string name="language_portuguese">Português (Brasil)</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_preferences">Preferences</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Form fields -->
+    <string name="field_full_name">Full name</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_email_login">E-mail (login)</string>
+    <string name="field_phone">Phone</string>
+    <string name="field_password">Password</string>
+    <string name="field_confirm_password">Confirm password</string>
+    <string name="field_new_password_optional">New password (optional)</string>
+
+    <!-- Login and registration -->
+    <string name="login_hero_title">Sign documents\nin seconds.</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Admins send documents and signers sign them. Sign in with your account credentials.</string>
+    <string name="login_forgot_password">Forgot my password</string>
+    <string name="login_submit">Sign in</string>
+    <string name="login_no_account">Don\'t have an account yet?</string>
+    <string name="login_create_admin">I\'m a company — create an admin account</string>
+    <string name="login_reset_sent">We sent a password reset link to %1$s.</string>
+    <string name="login_demo_hint">Local mode (no Firebase). Demo access:\n%1$s / %2$s</string>
+    <string name="register_title">Create admin account</string>
+    <string name="register_subtitle">With it you send documents and register who will sign them.</string>
+    <string name="register_submit">Create account</string>
+
+    <!-- Home -->
+    <string name="home_greeting">%1$s,</string>
+    <string name="home_greeting_morning">Good morning</string>
+    <string name="home_greeting_afternoon">Good afternoon</string>
+    <string name="home_greeting_evening">Good evening</string>
+    <string name="home_admin_subtitle">Admin dashboard</string>
+    <string name="home_signer_subtitle">Your documents to sign</string>
+    <string name="home_stat_sent">Sent</string>
+    <string name="home_stat_partial">Partial</string>
+    <string name="home_stat_completed">Completed</string>
+    <string name="home_stat_pending">Pending</string>
+    <string name="home_stat_signed">Signed</string>
+    <string name="home_action_new_document">New document</string>
+    <string name="home_action_new_document_subtitle">Send a PDF for signature</string>
+    <string name="home_action_signers">Signers</string>
+    <string name="home_action_signers_subtitle">Register and edit</string>
+    <string name="home_documents">Documents</string>
+    <plurals name="home_documents_total">
+        <item quantity="one">%d in total</item>
+        <item quantity="other">%d in total</item>
+    </plurals>
+    <string name="home_filter_count">%1$s %2$d</string>
+    <string name="home_filter_all">All</string>
+    <string name="home_filter_drafts">Drafts</string>
+    <string name="home_filter_sent">Sent</string>
+    <string name="home_filter_partial">Partial</string>
+    <string name="home_filter_completed">Completed</string>
+    <string name="home_tab_pending">Pending</string>
+    <string name="home_tab_signed">Signed</string>
+    <string name="home_document_created">v%1$d • created on %2$s</string>
+    <string name="home_document_from">From %1$s • %2$s</string>
+    <string name="home_badge_you_signed">You signed</string>
+    <string name="home_badge_waiting_you">Waiting for you</string>
+    <string name="home_admin_empty_title">No documents here</string>
+    <string name="home_admin_empty_message">Tap \"New document\" to send a PDF for signature.</string>
+    <string name="home_signer_empty_pending_title">All caught up!</string>
+    <string name="home_signer_empty_pending_message">You have no documents waiting for your signature.</string>
+    <string name="home_signer_empty_signed_title">No signed documents</string>
+    <string name="home_signer_empty_signed_message">The documents you sign will show up here.</string>
+    <string name="sync_offline">No connection: showing the data saved on this device.</string>
+
+    <!-- Status and roles -->
+    <string name="status_draft">Draft</string>
+    <string name="status_sent">Sent</string>
+    <string name="status_partially_signed">Partially signed</string>
+    <string name="status_completed">Completed</string>
+    <string name="signer_status_pending">Pending</string>
+    <string name="signer_status_signed">Signed</string>
+    <string name="role_contractor">Contractor</string>
+    <string name="role_contracted">Contracted party</string>
+    <string name="role_witness">Witness</string>
+    <string name="signer_optional">optional</string>
+    <string name="document_signatures_progress">%1$d/%2$d signatures</string>
+    <plurals name="pages_count">
+        <item quantity="one">%d page</item>
+        <item quantity="other">%d pages</item>
+    </plurals>
+    <plurals name="fields_count">
+        <item quantity="one">%d field</item>
+        <item quantity="other">%d fields</item>
+    </plurals>
+
+    <!-- History events -->
+    <string name="event_created">Document created</string>
+    <string name="event_created_detail">%1$s created the document</string>
+    <string name="event_new_version">New version created</string>
+    <string name="event_new_version_detail">%1$s created a new version from the sent document</string>
+    <string name="event_sent">Document sent</string>
+    <string name="event_sent_detail">%1$s sent the document for signature</string>
+    <string name="event_viewed">Document viewed</string>
+    <string name="event_viewed_detail">%1$s opened the document</string>
+    <string name="event_signed">Document signed</string>
+    <string name="event_signed_detail">%1$s signed the document</string>
+    <string name="event_completed">Document completed</string>
+    <string name="event_completed_detail">All required signers have signed</string>
+
+    <!-- Signers -->
+    <string name="signers_title">Signers</string>
+    <string name="signers_add">New signer</string>
+    <string name="signers_empty_title">No signers registered</string>
+    <string name="signers_empty_message">Register the people who will sign your documents.</string>
+    <string name="signer_form_new_title">New signer</string>
+    <string name="signer_form_edit_title">Edit signer</string>
+    <string name="signer_form_submit">Register signer</string>
+    <string name="signer_form_password_hint">For security, the password is set by the signer. Send them a link to create a new password.</string>
+    <string name="signer_form_send_reset">Send password reset link</string>
+    <string name="signer_form_reset_sent">Password reset link sent to %1$s.</string>
+
+    <!-- New document wizard -->
+    <string name="wizard_title">New document</string>
+    <string name="wizard_new_version_title">New version (v%1$d)</string>
+    <string name="wizard_step_of">Step %1$d of %2$d • %3$s</string>
+    <string name="wizard_step_document">Document</string>
+    <string name="wizard_step_signers">Signers</string>
+    <string name="wizard_step_fields">Fields</string>
+    <string name="wizard_step_review">Review</string>
+    <string name="wizard_document_title">Document title</string>
+    <string name="wizard_pdf_file">PDF file</string>
+    <string name="wizard_validating_file">Validating file…</string>
+    <string name="wizard_pdf_valid">%1$s • valid PDF</string>
+    <string name="wizard_tap_to_change">Tap to change the file</string>
+    <string name="wizard_pick_pdf">Select a PDF from your phone</string>
+    <string name="wizard_pdf_max_size">Up to %1$d MB</string>
+    <string name="wizard_preview">Preview</string>
+    <string name="wizard_page_short">P. %1$d</string>
+    <string name="wizard_signers_title">Who is going to sign?</string>
+    <string name="wizard_signers_subtitle">Select the signers and classify each one. At least 1 signer.</string>
+    <string name="wizard_signature_required">Signature required</string>
+    <string name="wizard_add_signer">Add signer</string>
+    <string name="wizard_select_signer">Select signer</string>
+    <string name="wizard_replace_with">Replace with</string>
+    <string name="wizard_no_signers_available">There are no other signers available. Register new people to continue.</string>
+    <string name="wizard_register_new">Register new</string>
+    <string name="wizard_signer_field_count">%1$s (%2$d)</string>
+    <string name="wizard_page_of">Page %1$d of %2$d</string>
+    <string name="wizard_add_field">Field</string>
+    <string name="wizard_fields_hint">Choose the signer, tap \"+ Field\" and drag it to the desired position. Use the bottom corner to resize.</string>
+    <string name="wizard_review_document">Final document</string>
+    <string name="wizard_review_signers">Signers (%1$d)</string>
+    <string name="wizard_review_fields">Signature fields and pages</string>
+    <string name="wizard_review_fields_line">Page %1$d: %2$s — %3$s</string>
+    <string name="wizard_review_message">Invitation message</string>
+    <string name="wizard_message_placeholder">Message that will go with the invitation</string>
+    <string name="wizard_default_message">Hi! You received a document to sign through Rubrica. Please review and sign it.</string>
+    <string name="wizard_version_short">v%1$d</string>
+    <string name="wizard_pages_list">page(s) %1$s</string>
+    <string name="wizard_confirm_send">Confirm and send</string>
+    <string name="wizard_send_failed_title">Couldn\'t send</string>
+    <string name="wizard_send_failed_message">The sending couldn\'t be completed. Check your internet connection and try again — the document is still saved and no request will be duplicated.</string>
+    <string name="wizard_sent_title">Document sent!</string>
+    <plurals name="wizard_sent_message">
+        <item quantity="one">%d signature request recorded. Track the progress in real time.</item>
+        <item quantity="other">%d signature requests recorded. Track the progress in real time.</item>
+    </plurals>
+    <string name="wizard_track_document">Track document</string>
+    <string name="wizard_back_home">Back to home</string>
+
+    <!-- Document tracking -->
+    <string name="detail_title">Tracking</string>
+    <string name="detail_unavailable_title">Document unavailable</string>
+    <string name="detail_unavailable_message">This document doesn\'t exist or you don\'t have access to it.</string>
+    <string name="detail_version">Version %1$d</string>
+    <string name="detail_signatures_done">%1$d of %2$d signatures collected</string>
+    <string name="detail_created_at">Created on</string>
+    <string name="detail_sent_at">Sent on</string>
+    <string name="detail_completed_at">Completed on</string>
+    <string name="detail_continue_editing">Continue editing</string>
+    <string name="detail_delete_draft">Delete draft</string>
+    <string name="detail_final_document">Final document</string>
+    <string name="detail_view_signed">View document with signatures</string>
+    <string name="detail_new_version">Change (create a new version)</string>
+    <string name="detail_new_version_hint">Sent documents are preserved. Changes create a new version with a new signing flow.</string>
+    <string name="detail_section_signers">Signers</string>
+    <string name="detail_section_message">Invitation message</string>
+    <string name="detail_section_history">History</string>
+    <string name="detail_signed_at">Signed on %1$s</string>
+    <string name="detail_delete_title">Delete draft?</string>
+    <string name="detail_delete_message">The draft and the imported PDF will be removed from this device.</string>
+
+    <!-- Signing -->
+    <string name="sign_sent_by">Sent by %1$s</string>
+    <string name="sign_message_quote">“%1$s”</string>
+    <string name="sign_you_signed_at">You signed on %1$s.</string>
+    <plurals name="sign_fields_to_sign">
+        <item quantity="one">You must sign %1$d field, on page(s) %2$s.</item>
+        <item quantity="other">You must sign %1$d fields, on page(s) %2$s.</item>
+    </plurals>
+    <string name="sign_here">Sign here</string>
+    <string name="sign_action">Sign document</string>
+    <string name="sign_redo">Redo</string>
+    <string name="sign_save">Save signature</string>
+    <string name="sign_view_final">View final document</string>
+    <string name="sign_view_signed">View signed document</string>
+    <string name="sign_done_title">Document signed!</string>
+    <string name="sign_done_completed">All signatures were collected and the document is completed.</string>
+    <string name="sign_done_partial">Your signature was recorded. The document is waiting for the other signers.</string>
+    <string name="sign_done_back">Back to documents</string>
+    <string name="sign_done_view_pdf">View PDF</string>
+    <string name="sign_download_error">Couldn\'t download the document. Check your connection.</string>
+    <string name="sign_save_error">Couldn\'t save the signature. Check your connection and try again.</string>
+    <string name="signature_pad_title">Draw your signature</string>
+    <string name="signature_pad_hint">Sign here</string>
+
+    <!-- PDF viewer -->
+    <string name="viewer_default_title">Document</string>
+    <string name="viewer_final_title">%1$s (final)</string>
+    <string name="viewer_share_chooser">Share PDF</string>
+
+    <!-- Audit trail (final PDF) -->
+    <string name="pdf_audit_title">Rubrica - Audit trail</string>
+    <string name="pdf_audit_document">Document: %1$s (version %2$d)</string>
+    <string name="pdf_audit_id">Identifier: %1$s</string>
+    <string name="pdf_audit_sender">Sender: %1$s</string>
+    <string name="pdf_audit_sent_at">Sent on: %1$s</string>
+    <string name="pdf_audit_completed_at">Completed on: %1$s</string>
+    <string name="pdf_audit_signers">Signers</string>
+    <string name="pdf_audit_signed_at">Signed on %1$s</string>
+    <string name="pdf_audit_history">History</string>
+
+    <!-- Errors -->
+    <string name="error_title">Oops!</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_remote_unavailable">Only available when Firebase is enabled.</string>
+    <string name="error_network">No internet connection.</string>
+    <string name="error_invalid_credentials">Invalid e-mail or password.</string>
+    <string name="error_email_already_used">This e-mail is already in use.</string>
+    <string name="error_user_not_found">User not found.</string>
+    <string name="error_profile_not_found">User profile not found.</string>
+    <string name="error_too_many_requests">Too many attempts. Wait a moment and try again.</string>
+    <string name="error_auth_provider_disabled">E-mail/password sign-in is not enabled in Firebase (Authentication &gt; Sign-in method).</string>
+    <string name="error_permission_denied">Access denied by Firebase. Check the Realtime Database rules.</string>
+    <string name="error_access_denied">You don\'t have access to this document.</string>
+    <string name="error_document_not_found">Document not found.</string>
+    <string name="error_document_locked">Sent documents can\'t be changed. Create a new version.</string>
+    <string name="error_document_invalid">The document has invalid data.</string>
+    <string name="error_name_required">Enter the full name.</string>
+    <string name="error_name_full">Enter first and last name.</string>
+    <string name="error_email_required">Enter the e-mail.</string>
+    <string name="error_email_invalid">Enter a valid e-mail.</string>
+    <string name="error_reset_email_required">Enter your e-mail to receive the reset link.</string>
+    <string name="error_phone_required">Enter the phone number.</string>
+    <string name="error_phone_invalid">Enter a valid phone number with area code.</string>
+    <string name="error_password_required">Enter the password.</string>
+    <string name="error_password_too_short">The password must be at least 6 characters long.</string>
+    <string name="error_password_mismatch">The passwords don\'t match.</string>
+    <string name="error_pdf_empty">The file is empty or couldn\'t be read.</string>
+    <string name="error_pdf_too_large">The file exceeds the 7 MB limit.</string>
+    <string name="error_pdf_invalid_format">The selected file is not a valid PDF.</string>
+    <string name="error_pdf_no_pages">The PDF has no pages.</string>
+    <string name="error_pdf_password_protected">The PDF is password protected and can\'t be processed.</string>
+    <string name="error_pdf_corrupted">The PDF is corrupted or couldn\'t be processed.</string>
+    <string name="error_document_title_required">Enter the document title.</string>
+    <string name="error_document_pdf_required">Select a valid PDF file.</string>
+    <string name="error_document_signer_required">Add at least 1 signer.</string>
+    <string name="error_document_required_signer">At least 1 signer must be required.</string>
+    <string name="error_document_duplicated_signer">There are repeated signers.</string>
+    <string name="error_document_field_without_signer">Every signature field must belong to a signer.</string>
+    <string name="error_document_field_outside_page">There are signature fields outside the page bounds.</string>
+    <string name="error_document_signer_without_field">Place at least one signature field for %1$s.</string>
+
+</resources>

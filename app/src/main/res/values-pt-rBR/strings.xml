@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_tagline">Envie, assine e acompanhe tudo na palma da mão.</string>
+    <string name="demo_admin_name">Administrador Rubrica</string>
+
+    <!-- Ações -->
+    <string name="action_back">Voltar</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_clear">Limpar</string>
+    <string name="action_close">Fechar</string>
+    <string name="action_confirm">Confirmar</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_delete">Excluir</string>
+    <string name="action_edit">Editar</string>
+    <string name="action_remove">Remover</string>
+    <string name="action_replace">Substituir</string>
+    <string name="action_retry">Tentar novamente</string>
+    <string name="action_save_changes">Salvar alterações</string>
+
+    <!-- Descrições de acessibilidade -->
+    <string name="cd_app_logo">Logo do Rubrica</string>
+    <string name="cd_back">Voltar</string>
+    <string name="cd_close">Fechar</string>
+    <string name="cd_settings">Configurações</string>
+    <string name="cd_refresh">Atualizar</string>
+    <string name="cd_logout">Sair</string>
+    <string name="cd_share">Compartilhar</string>
+    <string name="cd_show_password">Mostrar senha</string>
+    <string name="cd_hide_password">Ocultar senha</string>
+    <string name="cd_previous_page">Página anterior</string>
+    <string name="cd_next_page">Próxima página</string>
+    <string name="cd_delete_field">Excluir campo</string>
+    <string name="cd_pdf_page">Página %1$d</string>
+    <string name="cd_signature">Assinatura</string>
+
+    <!-- Idioma -->
+    <string name="language_title">Idioma</string>
+    <string name="language_system">Padrão do sistema</string>
+    <string name="language_english">English</string>
+    <string name="language_portuguese">Português (Brasil)</string>
+
+    <!-- Configurações -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_section_preferences">Preferências</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_theme">Tema</string>
+    <string name="theme_title">Tema</string>
+    <string name="theme_system">Padrão do sistema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Escuro</string>
+
+    <!-- Campos de formulário -->
+    <string name="field_full_name">Nome completo</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_email_login">E-mail (login)</string>
+    <string name="field_phone">Telefone</string>
+    <string name="field_password">Senha</string>
+    <string name="field_confirm_password">Confirmar senha</string>
+    <string name="field_new_password_optional">Nova senha (opcional)</string>
+
+    <!-- Login e cadastro -->
+    <string name="login_hero_title">Assine documentos\nem segundos.</string>
+    <string name="login_title">Bem-vindo de volta</string>
+    <string name="login_subtitle">Admins enviam documentos e signatários assinam. Entre com as credenciais da sua conta.</string>
+    <string name="login_forgot_password">Esqueci minha senha</string>
+    <string name="login_submit">Entrar</string>
+    <string name="login_no_account">Ainda não tem conta?</string>
+    <string name="login_create_admin">Sou empresa — criar conta de administrador</string>
+    <string name="login_reset_sent">Enviamos um link de redefinição de senha para %1$s.</string>
+    <string name="login_demo_hint">Modo local (sem Firebase). Acesso de demonstração:\n%1$s / %2$s</string>
+    <string name="register_title">Criar conta de administrador</string>
+    <string name="register_subtitle">Com ela você envia documentos e cadastra quem vai assinar.</string>
+    <string name="register_submit">Criar conta</string>
+
+    <!-- Início -->
+    <string name="home_greeting">%1$s,</string>
+    <string name="home_greeting_morning">Bom dia</string>
+    <string name="home_greeting_afternoon">Boa tarde</string>
+    <string name="home_greeting_evening">Boa noite</string>
+    <string name="home_admin_subtitle">Painel do administrador</string>
+    <string name="home_signer_subtitle">Seus documentos para assinatura</string>
+    <string name="home_stat_sent">Enviados</string>
+    <string name="home_stat_partial">Parciais</string>
+    <string name="home_stat_completed">Concluídos</string>
+    <string name="home_stat_pending">Pendentes</string>
+    <string name="home_stat_signed">Assinados</string>
+    <string name="home_action_new_document">Novo documento</string>
+    <string name="home_action_new_document_subtitle">Enviar PDF para assinatura</string>
+    <string name="home_action_signers">Signatários</string>
+    <string name="home_action_signers_subtitle">Cadastrar e editar</string>
+    <string name="home_documents">Documentos</string>
+    <plurals name="home_documents_total">
+        <item quantity="one">%d no total</item>
+        <item quantity="other">%d no total</item>
+    </plurals>
+    <string name="home_filter_count">%1$s %2$d</string>
+    <string name="home_filter_all">Todos</string>
+    <string name="home_filter_drafts">Rascunhos</string>
+    <string name="home_filter_sent">Enviados</string>
+    <string name="home_filter_partial">Parciais</string>
+    <string name="home_filter_completed">Concluídos</string>
+    <string name="home_tab_pending">Pendentes</string>
+    <string name="home_tab_signed">Assinados</string>
+    <string name="home_document_created">v%1$d • criado em %2$s</string>
+    <string name="home_document_from">De %1$s • %2$s</string>
+    <string name="home_badge_you_signed">Você assinou</string>
+    <string name="home_badge_waiting_you">Aguardando você</string>
+    <string name="home_admin_empty_title">Nenhum documento aqui</string>
+    <string name="home_admin_empty_message">Toque em \"Novo documento\" para enviar um PDF para assinatura.</string>
+    <string name="home_signer_empty_pending_title">Tudo em dia!</string>
+    <string name="home_signer_empty_pending_message">Você não possui documentos pendentes de assinatura.</string>
+    <string name="home_signer_empty_signed_title">Nenhum documento assinado</string>
+    <string name="home_signer_empty_signed_message">Os documentos que você assinar aparecerão aqui.</string>
+    <string name="sync_offline">Sem conexão: exibindo dados salvos no aparelho.</string>
+
+    <!-- Status e classificações -->
+    <string name="status_draft">Rascunho</string>
+    <string name="status_sent">Enviado</string>
+    <string name="status_partially_signed">Parcialmente assinado</string>
+    <string name="status_completed">Concluído</string>
+    <string name="signer_status_pending">Pendente</string>
+    <string name="signer_status_signed">Assinado</string>
+    <string name="role_contractor">Contratante</string>
+    <string name="role_contracted">Contratado</string>
+    <string name="role_witness">Testemunha</string>
+    <string name="signer_optional">opcional</string>
+    <string name="document_signatures_progress">%1$d/%2$d assinaturas</string>
+    <plurals name="pages_count">
+        <item quantity="one">%d página</item>
+        <item quantity="other">%d páginas</item>
+    </plurals>
+    <plurals name="fields_count">
+        <item quantity="one">%d campo</item>
+        <item quantity="other">%d campos</item>
+    </plurals>
+
+    <!-- Eventos do histórico -->
+    <string name="event_created">Documento criado</string>
+    <string name="event_created_detail">%1$s criou o documento</string>
+    <string name="event_new_version">Nova versão criada</string>
+    <string name="event_new_version_detail">%1$s criou uma nova versão a partir do documento enviado</string>
+    <string name="event_sent">Documento enviado</string>
+    <string name="event_sent_detail">%1$s enviou o documento para assinatura</string>
+    <string name="event_viewed">Documento visualizado</string>
+    <string name="event_viewed_detail">%1$s abriu o documento</string>
+    <string name="event_signed">Documento assinado</string>
+    <string name="event_signed_detail">%1$s assinou o documento</string>
+    <string name="event_completed">Documento concluído</string>
+    <string name="event_completed_detail">Todos os signatários obrigatórios assinaram</string>
+
+    <!-- Signatários -->
+    <string name="signers_title">Signatários</string>
+    <string name="signers_add">Novo signatário</string>
+    <string name="signers_empty_title">Nenhum signatário cadastrado</string>
+    <string name="signers_empty_message">Cadastre as pessoas que irão assinar seus documentos.</string>
+    <string name="signer_form_new_title">Novo signatário</string>
+    <string name="signer_form_edit_title">Editar signatário</string>
+    <string name="signer_form_submit">Cadastrar signatário</string>
+    <string name="signer_form_password_hint">Por segurança, a senha é definida pelo próprio signatário. Envie um link para ele criar uma nova senha.</string>
+    <string name="signer_form_send_reset">Enviar link de redefinição de senha</string>
+    <string name="signer_form_reset_sent">Link de redefinição de senha enviado para %1$s.</string>
+
+    <!-- Assistente de novo documento -->
+    <string name="wizard_title">Novo documento</string>
+    <string name="wizard_new_version_title">Nova versão (v%1$d)</string>
+    <string name="wizard_step_of">Etapa %1$d de %2$d • %3$s</string>
+    <string name="wizard_step_document">Documento</string>
+    <string name="wizard_step_signers">Signatários</string>
+    <string name="wizard_step_fields">Campos</string>
+    <string name="wizard_step_review">Revisão</string>
+    <string name="wizard_document_title">Título do documento</string>
+    <string name="wizard_pdf_file">Arquivo PDF</string>
+    <string name="wizard_validating_file">Validando arquivo…</string>
+    <string name="wizard_pdf_valid">%1$s • PDF válido</string>
+    <string name="wizard_tap_to_change">Toque para trocar o arquivo</string>
+    <string name="wizard_pick_pdf">Selecionar PDF do celular</string>
+    <string name="wizard_pdf_max_size">Máximo %1$d MB</string>
+    <string name="wizard_preview">Pré-visualização</string>
+    <string name="wizard_page_short">Pág. %1$d</string>
+    <string name="wizard_signers_title">Quem vai assinar?</string>
+    <string name="wizard_signers_subtitle">Selecione os signatários e classifique cada um. Mínimo de 1 signatário.</string>
+    <string name="wizard_signature_required">Assinatura obrigatória</string>
+    <string name="wizard_add_signer">Adicionar signatário</string>
+    <string name="wizard_select_signer">Selecionar signatário</string>
+    <string name="wizard_replace_with">Substituir por</string>
+    <string name="wizard_no_signers_available">Não há outros signatários disponíveis. Cadastre novas pessoas para continuar.</string>
+    <string name="wizard_register_new">Cadastrar novo</string>
+    <string name="wizard_signer_field_count">%1$s (%2$d)</string>
+    <string name="wizard_page_of">Página %1$d de %2$d</string>
+    <string name="wizard_add_field">Campo</string>
+    <string name="wizard_fields_hint">Escolha o signatário, toque em \"+ Campo\" e arraste até a posição desejada. Use o canto inferior para redimensionar.</string>
+    <string name="wizard_review_document">Documento final</string>
+    <string name="wizard_review_signers">Signatários (%1$d)</string>
+    <string name="wizard_review_fields">Campos e páginas de assinatura</string>
+    <string name="wizard_review_fields_line">Página %1$d: %2$s — %3$s</string>
+    <string name="wizard_review_message">Mensagem do convite</string>
+    <string name="wizard_message_placeholder">Mensagem que acompanhará o convite</string>
+    <string name="wizard_default_message">Olá! Você recebeu um documento para assinatura pelo Rubrica. Por favor, revise e assine.</string>
+    <string name="wizard_version_short">v%1$d</string>
+    <string name="wizard_pages_list">pág. %1$s</string>
+    <string name="wizard_confirm_send">Confirmar e enviar</string>
+    <string name="wizard_send_failed_title">Não foi possível enviar</string>
+    <string name="wizard_send_failed_message">Não foi possível concluir o envio. Verifique sua conexão com a internet e tente novamente — o documento continua salvo e nenhuma solicitação será duplicada.</string>
+    <string name="wizard_sent_title">Documento enviado!</string>
+    <plurals name="wizard_sent_message">
+        <item quantity="one">%d solicitação de assinatura registrada. Acompanhe o andamento em tempo real.</item>
+        <item quantity="other">%d solicitações de assinatura registradas. Acompanhe o andamento em tempo real.</item>
+    </plurals>
+    <string name="wizard_track_document">Acompanhar documento</string>
+    <string name="wizard_back_home">Voltar ao início</string>
+
+    <!-- Acompanhamento -->
+    <string name="detail_title">Acompanhamento</string>
+    <string name="detail_unavailable_title">Documento indisponível</string>
+    <string name="detail_unavailable_message">Este documento não existe ou você não tem acesso a ele.</string>
+    <string name="detail_version">Versão %1$d</string>
+    <string name="detail_signatures_done">%1$d de %2$d assinaturas realizadas</string>
+    <string name="detail_created_at">Criado em</string>
+    <string name="detail_sent_at">Enviado em</string>
+    <string name="detail_completed_at">Concluído em</string>
+    <string name="detail_continue_editing">Continuar edição</string>
+    <string name="detail_delete_draft">Excluir rascunho</string>
+    <string name="detail_final_document">Documento final</string>
+    <string name="detail_view_signed">Ver documento com assinaturas</string>
+    <string name="detail_new_version">Alterar (gerar nova versão)</string>
+    <string name="detail_new_version_hint">Documentos enviados ficam preservados. Alterações geram uma nova versão com um novo fluxo de assinatura.</string>
+    <string name="detail_section_signers">Signatários</string>
+    <string name="detail_section_message">Mensagem do convite</string>
+    <string name="detail_section_history">Histórico</string>
+    <string name="detail_signed_at">Assinou em %1$s</string>
+    <string name="detail_delete_title">Excluir rascunho?</string>
+    <string name="detail_delete_message">O rascunho e o PDF importado serão removidos do aparelho.</string>
+
+    <!-- Assinatura -->
+    <string name="sign_sent_by">Enviado por %1$s</string>
+    <string name="sign_message_quote">“%1$s”</string>
+    <string name="sign_you_signed_at">Você assinou em %1$s.</string>
+    <plurals name="sign_fields_to_sign">
+        <item quantity="one">Você deve assinar em %1$d campo, na(s) página(s) %2$s.</item>
+        <item quantity="other">Você deve assinar em %1$d campos, na(s) página(s) %2$s.</item>
+    </plurals>
+    <string name="sign_here">Assine aqui</string>
+    <string name="sign_action">Assinar documento</string>
+    <string name="sign_redo">Refazer</string>
+    <string name="sign_save">Salvar assinatura</string>
+    <string name="sign_view_final">Ver documento final</string>
+    <string name="sign_view_signed">Ver documento assinado</string>
+    <string name="sign_done_title">Documento assinado!</string>
+    <string name="sign_done_completed">Todas as assinaturas foram coletadas e o documento foi concluído.</string>
+    <string name="sign_done_partial">Sua assinatura foi registrada. O documento aguarda os demais signatários.</string>
+    <string name="sign_done_back">Voltar aos documentos</string>
+    <string name="sign_done_view_pdf">Ver PDF</string>
+    <string name="sign_download_error">Não foi possível baixar o documento. Verifique sua conexão.</string>
+    <string name="sign_save_error">Não foi possível salvar a assinatura. Verifique sua conexão e tente novamente.</string>
+    <string name="signature_pad_title">Desenhe sua assinatura</string>
+    <string name="signature_pad_hint">Assine aqui</string>
+
+    <!-- Visualizador de PDF -->
+    <string name="viewer_default_title">Documento</string>
+    <string name="viewer_final_title">%1$s (final)</string>
+    <string name="viewer_share_chooser">Compartilhar PDF</string>
+
+    <!-- Trilha de auditoria (PDF final) -->
+    <string name="pdf_audit_title">Rubrica - Trilha de auditoria</string>
+    <string name="pdf_audit_document">Documento: %1$s (versão %2$d)</string>
+    <string name="pdf_audit_id">Identificador: %1$s</string>
+    <string name="pdf_audit_sender">Remetente: %1$s</string>
+    <string name="pdf_audit_sent_at">Enviado em: %1$s</string>
+    <string name="pdf_audit_completed_at">Concluído em: %1$s</string>
+    <string name="pdf_audit_signers">Signatários</string>
+    <string name="pdf_audit_signed_at">Assinado em %1$s</string>
+    <string name="pdf_audit_history">Histórico</string>
+
+    <!-- Erros -->
+    <string name="error_title">Ops!</string>
+    <string name="error_generic">Algo deu errado. Tente novamente.</string>
+    <string name="error_remote_unavailable">Disponível apenas com o Firebase ativo.</string>
+    <string name="error_network">Sem conexão com a internet.</string>
+    <string name="error_invalid_credentials">E-mail ou senha inválidos.</string>
+    <string name="error_email_already_used">Este e-mail já está em uso.</string>
+    <string name="error_user_not_found">Usuário não encontrado.</string>
+    <string name="error_profile_not_found">Perfil do usuário não encontrado.</string>
+    <string name="error_too_many_requests">Muitas tentativas. Aguarde um momento e tente novamente.</string>
+    <string name="error_auth_provider_disabled">Login por e-mail/senha não está ativado no Firebase (Authentication &gt; Sign-in method).</string>
+    <string name="error_permission_denied">Acesso negado pelo Firebase. Verifique as regras do Realtime Database.</string>
+    <string name="error_access_denied">Você não tem acesso a este documento.</string>
+    <string name="error_document_not_found">Documento não encontrado.</string>
+    <string name="error_document_locked">Documentos enviados não podem ser alterados. Crie uma nova versão.</string>
+    <string name="error_document_invalid">O documento possui dados inválidos.</string>
+    <string name="error_name_required">Informe o nome completo.</string>
+    <string name="error_name_full">Informe nome e sobrenome.</string>
+    <string name="error_email_required">Informe o e-mail.</string>
+    <string name="error_email_invalid">Informe um e-mail válido.</string>
+    <string name="error_reset_email_required">Informe seu e-mail para receber o link de redefinição.</string>
+    <string name="error_phone_required">Informe o telefone.</string>
+    <string name="error_phone_invalid">Informe um telefone válido com DDD.</string>
+    <string name="error_password_required">Informe a senha.</string>
+    <string name="error_password_too_short">A senha deve ter pelo menos 6 caracteres.</string>
+    <string name="error_password_mismatch">As senhas não conferem.</string>
+    <string name="error_pdf_empty">O arquivo está vazio ou não pôde ser lido.</string>
+    <string name="error_pdf_too_large">O arquivo excede o limite de 7 MB.</string>
+    <string name="error_pdf_invalid_format">O arquivo selecionado não é um PDF válido.</string>
+    <string name="error_pdf_no_pages">O PDF não possui páginas.</string>
+    <string name="error_pdf_password_protected">O PDF está protegido por senha e não pode ser processado.</string>
+    <string name="error_pdf_corrupted">O PDF está corrompido ou não pôde ser processado.</string>
+    <string name="error_document_title_required">Informe o título do documento.</string>
+    <string name="error_document_pdf_required">Selecione um arquivo PDF válido.</string>
+    <string name="error_document_signer_required">Adicione pelo menos 1 signatário.</string>
+    <string name="error_document_required_signer">Pelo menos 1 signatário deve ser obrigatório.</string>
+    <string name="error_document_duplicated_signer">Há signatários repetidos.</string>
+    <string name="error_document_field_without_signer">Todo campo de assinatura deve estar associado a um signatário.</string>
+    <string name="error_document_field_outside_page">Há campos de assinatura fora dos limites da página.</string>
+    <string name="error_document_signer_without_field">Posicione ao menos um campo de assinatura para %1$s.</string>
+
+</resources>
